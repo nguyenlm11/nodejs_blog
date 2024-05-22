@@ -4,6 +4,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nguyen",
@@ -14,7 +15,9 @@
     "morgan": "^1.10.0",
     "nodemon": "^3.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nguyenlm11/nodejs_blog.git"
